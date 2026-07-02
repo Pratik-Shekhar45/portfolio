@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratik Shekhar | Software Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Pratik Shekhar, a Software Developer specialized in Full Stack Development, Embedded Systems, and Algorithms.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Three.js Canvas Background Container -->
+  <div id="canvas-container"></div>
+
+  <!-- Main Scrollable Content Container -->
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <div class="nav-container">
+          <a href="#" class="logo">
+            <span class="logo-dot"></span>
+            Pratik.
+          </a>
+          <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+          </ul>
+          <a href="#contact" class="btn-nav">Let's talk</a>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <header class="hero" id="home">
+        <div class="hero-container">
+          <div class="hero-text-side">
+            <span class="intro-tag">— Introduction</span>
+            <h1 class="hero-title">Pratik Shekhar.</h1>
+            <p class="hero-subtitle">Software Developer and B.Tech student in Electronics and Communication Engineering based in Manipal, India.</p>
+            <p class="hero-description">Passionate about building responsive, high-performance web applications and exploring intelligent systems.</p>
+            
+            <div class="hero-socials">
+              <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="mailto:pratikedu23@gmail.com" aria-label="Email"><i class="far fa-envelope"></i></a>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#works" class="btn-primary">My Work <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="hero-image-side">
+            <div class="image-wrapper">
+              <div class="profile-card-bg"></div>
+              <img src="pratik_shekhar.jpg" alt="Pratik Shekhar" class="profile-img">
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Contact & Stats Section -->
+      <section class="stats-section">
+        <div class="stats-container">
+          <div class="contact-prompt-block">
+            <span class="section-tag">— Contact</span>
+            <h2>Any Type Of Query & Discussion.</h2>
+            <p>Looking for a talented software developer intern or collaborator? Let's connect and build something awesome together.</p>
+            <a href="mailto:pratikedu23@gmail.com" class="email-link">pratikedu23@gmail.com <i class="fas fa-arrow-right"></i></a>
+          </div>
+
+          <div class="stats-value-block">
+            <h2>You can't use up creativity, the more you use, the more you have in your significant mind.</h2>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-num">3+</span>
+                <span class="stat-label">Years of<br>Coding</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num">10+</span>
+                <span class="stat-label">Projects<br>Completed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services / Disciplines Section -->
+      <section class="services-section" id="services">
+        <div class="services-grid">
+          
+          <!-- Card 1 -->
+          <div class="service-card" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <i class="fab fa-react"></i>
+              </div>
+              <h3>Frontend Developer.</h3>
+              <p>Crafting responsive, high-performance, and visually stunning web interfaces using HTML5, CSS3, Bootstrap, and React.js.</p>
+              <span class="card-projects-count">React Projects</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-card highlight" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3>Backend Developer.</h3>
+              <p>Building secure, scalable server-side systems, databases (MySQL, MongoDB), and optimized RESTful APIs using Node.js and Express.js.</p>
+              <span class="card-projects-count">Node & Express</span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card" data-tilt>
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="card-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3>Software Developer.</h3>
+              <p>Developing core software solutions, designing clean algorithms, and implementing solid OOP structures in Java, Python, and C.</p>
+              <span class="card-projects-count">Algorithms & OOP</span>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="portfolio-section" id="works">
+        <div class="portfolio-header">
+          <div>
+            <span class="section-tag">— Portfolio</span>
+            <h2 class="section-title">All Creative Works,<br>Selected projects.</h2>
+            <p class="section-subtitle">A collection of academic, hardware, and web development projects demonstrating engineering problem-solving.</p>
+          </div>
+          <a href="https://github.com" target="_blank" class="explore-more">Explore GitHub <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="portfolio-grid">
+          
+          <!-- Project 1 -->
+          <div class="portfolio-item-card" data-tilt>
+            <div class="project-media">
+              <div class="project-overlay"></div>
+              <div class="project-tags">
+                <span>STM32F401</span>
+                <span>Embedded C</span>
+                <span>RFID</span>
+              </div>
+              <div class="project-icon-placeholder">
+                <i class="fas fa-traffic-light"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Hardware & Firmware</span>
+              <h3>Smart Traffic Light System</h3>
+              <p>Designed a smart traffic controller with dynamic signal timing and automatic emergency vehicle preemption using RFID.</p>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="portfolio-item-card" data-tilt>
+            <div class="project-media">
+              <div class="project-overlay"></div>
+              <div class="project-tags">
+                <span>MATLAB</span>
+                <span>Computer Networks</span>
+              </div>
+              <div class="project-icon-placeholder">
+                <i class="fas fa-route"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Simulation & Logic</span>
+              <h3>Application-Aware Routing</h3>
+              <p>Developed a cross-layer simulator integrating transport/routing layers and Dijkstra's algorithm with Leaky Bucket traffic policing.</p>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="portfolio-item-card" data-tilt>
+            <div class="project-media">
+              <div class="project-overlay"></div>
+              <div class="project-tags">
+                <span>LTspice</span>
+                <span>Analog Electronics</span>
+              </div>
+              <div class="project-icon-placeholder">
+                <i class="fas fa-sliders-h"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Electronics</span>
+              <h3>Analog Audio Equalizer</h3>
+              <p>Designed a multi-band analog audio equalizer using operational amplifiers and active RC filter networks, simulated in LTspice.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills-section" id="skills">
+        <div class="skills-container">
+          <div class="skills-header">
+            <span class="section-tag">— Core Competencies</span>
+            <h2 class="section-title">Technical Expertise</h2>
+            <p>A breakdown of the programming languages, libraries, and engineering tools in my developer toolkit.</p>
+          </div>
+
+          <div class="skills-wrapper">
+            <div class="skills-category-block">
+              <h3>Languages & Databases</h3>
+              <div class="skills-badges">
+                <span class="skill-badge"><i class="fab fa-java"></i> Java</span>
+                <span class="skill-badge"><i class="fab fa-js-square"></i> JavaScript</span>
+                <span class="skill-badge"><i class="fab fa-python"></i> Python</span>
+                <span class="skill-badge"> C</span>
+                <span class="skill-badge"><i class="fas fa-database"></i> SQL</span>
+                <span class="skill-badge"><i class="fas fa-leaf"></i> MongoDB</span>
+                <span class="skill-badge"><i class="fas fa-server"></i> MySQL</span>
+              </div>
+            </div>
+
+            <div class="skills-category-block">
+              <h3>Frontend & Backend</h3>
+              <div class="skills-badges">
+                <span class="skill-badge"><i class="fab fa-react"></i> React.js</span>
+                <span class="skill-badge"><i class="fab fa-node-js"></i> Node.js</span>
+                <span class="skill-badge">Express.js</span>
+                <span class="skill-badge"><i class="fab fa-html5"></i> HTML5</span>
+                <span class="skill-badge"><i class="fab fa-css3-alt"></i> CSS3</span>
+                <span class="skill-badge"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+              </div>
+            </div>
+
+            <div class="skills-category-block">
+              <h3>Engineering & Tools</h3>
+              <div class="skills-badges">
+                <span class="skill-badge"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                <span class="skill-badge"><i class="fas fa-terminal"></i> VS Code</span>
+                <span class="skill-badge">Data Structures</span>
+                <span class="skill-badge">Algorithms</span>
+                <span class="skill-badge">OOP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="experience-section" id="experience">
+        <div class="experience-container">
+          <div class="experience-info-side">
+            <span class="section-tag">— Career Path</span>
+            <h2 class="section-title">Work Experience & Internship</h2>
+            <p>Applied web technology in industry-focused tasks, working with multi-functional teams to build software features.</p>
+          </div>
+
+          <div class="timeline-side">
+            <div class="timeline-item">
+              <span class="timeline-date">Jun 2026 – Jul 2026</span>
+              <div class="timeline-content">
+                <h3>Web Developer Intern</h3>
+                <h4 class="company-name">Slash Marks IT Solutions</h4>
+                <p class="timeline-desc">Developed responsive websites using HTML, CSS, JavaScript, React.js, and Node.js. Collaborated with the web development team to deliver projects and optimize frontend layout assets for polished user experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials / Quote Section -->
+      <section class="quote-section">
+        <div class="quote-container">
+          <div class="quote-graphic">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <div class="quote-body">
+            <blockquote>
+              Pratik is a detail-oriented developer who applies strong problem-solving skills across hardware, network logic, and web development tasks. He displays great collaboration and execution in team settings.
+            </blockquote>
+            <div class="quote-author">
+              <span class="author-name">Slash Marks Mentor</span>
+              <span class="author-title">IT Projects Director</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form & Footer Section -->
+      <section class="contact-section" id="contact">
+        <div class="contact-grid">
+          
+          <div class="contact-details-panel">
+            <span class="section-tag">— Get in touch</span>
+            <h2 class="contact-main-title">Estimate your project?<br>Let me know here.</h2>
+            <p class="contact-text-desc">Feel free to drop a message or reach out via email for internship inquiries, project proposals, or networking.</p>
+            
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                  <h4>Call Me</h4>
+                  <p>+91 7004160422</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <i class="far fa-envelope"></i>
+                <div>
+                  <h4>Email Me</h4>
+                  <p>pratikedu23@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Manipal, Karnataka, India</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <form id="portfolio-contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully (Simulation)!');">
+              <div class="form-group">
+                <label for="user-name">What's your name?</label>
+                <input type="text" id="user-name" required placeholder="Type your name here...">
+              </div>
+              
+              <div class="form-group">
+                <label for="user-email">Your fancy email</label>
+                <input type="email" id="user-email" required placeholder="Type your email here...">
+              </div>
+
+              <div class="form-group">
+                <label for="user-msg">Tell me about your project</label>
+                <textarea id="user-msg" required placeholder="Describe what you want to build..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit">Send message <i class="fas fa-arrow-right"></i></button>
+            </form>
+          </div>
+
+        </div>
+
+        <footer class="footer">
+          <p>&copy; 2026 Pratik Shekhar. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </footer>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- CDN Dependencies: Three.js and GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  
+  <!-- Interactive Script -->
+  <script src="script.js"></script>
+</body>
+</html>
